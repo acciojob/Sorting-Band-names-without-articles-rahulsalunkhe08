@@ -1,5 +1,5 @@
 //your code here
-et bandNames=['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal']
+let bandNames=['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal']
 let articles = ['A', 'AN', 'THE']
  
 	bandNames.sort((a,b) => (strip(a)> strip(b))? 1: -1)
